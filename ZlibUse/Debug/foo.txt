@@ -1,0 +1,3 @@
+Here is the main() routine used to test def() and inf(). The zpipe command is simply a compression pipe from stdin to stdout, if no arguments are given, or it is a decompression pipe if zpipe -d is used. If any other arguments are provided, no compression or decompression is performed. Instead a usage message is displayed. Examples are zpipe < foo.txt > foo.txt.z to compress, and zpipe -d < foo.txt.z > foo.txt to decompress.
+
+from http://www.zlib.net/zlib_how.html
